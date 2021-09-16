@@ -1,0 +1,128 @@
+/* Some Imported Fonts From Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
+
+/* Smaller Font-Size for Mobile Devices */
+@media (max-width: 700px) {
+    .list ul li {
+        font-size: 1em;
+    }  
+    .list h2 {
+        font-size: 1.6em;
+    }    
+    p {
+        font-size: 1em !important;
+    }
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+
+/* Upper Intro */
+#top {
+    background-color: black;
+    color: white;
+    display: flex;
+    /* Take Full width of users device */
+    height: 100vh;
+    background-image: url(pics/pic.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: right bottom;
+}
+
+/* Name and about */
+#intro {
+    margin: auto auto auto 10%;
+    font-size: 150%;
+    /* Overlay element on each other higher the value, top on the stack */
+    z-index: 5;
+}
+/* Name */
+#intro h1 {
+    font-family: 'Allison', cursive;
+    font-size: 4em;
+    font-weight: lighter;
+}
+/* Profession */
+#intro p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1em;
+}
+
+
+/*  */
+h1 {
+    font-family: "Roboto Slab";
+    font-size: 3em;
+    margin-bottom: 20px;
+    border-bottom: black 1px solid;
+}
+p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5em;
+}
+.con {
+    height: 100vh;
+    /* Elements not exceeds the given width by adding paddings */
+    box-sizing: border-box;
+    padding: 10% 10%;
+}
+.black {
+    background-color: black;
+    color: white;
+}
+.black h1 {
+    border-bottom: white 1px solid;
+    
+}
+#about {
+    background-image: url(pics/Biography.png);
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: 25%;
+    background-position: right bottom;
+}
+#family {
+    background-image: url(pics/family.png);
+    background-repeat: no-repeat;
+    background-size: 35%;
+    background-position: right bottom;
+}
+#career {
+    background-image: url(pics/career.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: right bottom;
+    /* padding: 16% 10%; */
+}
+h2{
+    font-family: "Roboto Slab";
+    font-size: 2em;
+}
+#Awards {
+    background-image: url(pics/award.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: right bottom;
+    padding: 7% 10%;
+}
+.award {
+    display: flex;
+    margin-left: 5%;
+}
+.list {
+    padding-right: 10%;
+}
+.list li {
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 10px;
+    font-size: 1.25em;
+}
+#songs {
+    padding: 5% 10%;
+}
