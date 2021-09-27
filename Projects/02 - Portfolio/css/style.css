@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Megrim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@1,300;1,500&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}  
+* {
+    margin: 0;
+    padding: 0;
+    /* --primary-color: #6d5291; */
+    --primary-color: #53352a;
+    /* --backdround2: white; */
+
+}
+
+.nav {
+    height: 10vh;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 3px 5px #7854472d;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    background-color: white;
+}
+.logo {
+    flex: 1 1;
+    margin-left: 40px;
+    font-size: 30px;
+    font-family: 'Megrim', cursive;
+    color: var(--primary-color);
+}
+.navigation > ul {
+    list-style: none;
+    display: flex;
+}
+.navigation > ul > li {
+    margin-right: 50px;
+    font-size: 20px;
+}
+li > a {
+    text-decoration: none;
+    color: var(--text-color);
+    text-transform: uppercase;
+}
+
+.navigation ul > li:hover {
+    color: var(--primary-color);
+}
+
+.sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    box-shadow: 0px 3px 5px #b985722d;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    /* gap: 20px 20px */
+}
+#about {
+    padding-top: 50px;
+}
+.bio {
+    margin-right: 40px;
+}
+.name {
+    font-size: 60px;
+}
+.my-pic > img {
+    height: 300px;
+    border-radius: 10%;
+    box-shadow: 40px -40px var(--primary-color);
+}
+.highlight {
+    color: var(--primary-color);
+}
+.title {
+    font-size: 20px;
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.616)
+}
+.intro {
+    margin-top: 30px;
+    width: 420px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+#skills-interest {
+    height: 85vh;
+    background-color: var(--backdround2);
+    box-shadow: 0px 3px 5px #b985722d;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    gap: 40px;
+}
+.heading {
+    flex-basis: 100%;
+    text-align: center;
+    color: var(--primary-color);
+    text-transform: uppercase;
+}
+
+#skills-interest h2 {
+    margin-bottom: 20px;
+}
+
+#skills-interest  ul > li{
+    list-style: none;
+    margin-bottom: 15px;
+}
+#skills-interest  ul > li::before{
+    content: "👉 ";
+}
+strong {
+    text-transform: uppercase;
+    color: var(--primary-color);
+}
+
+.card {
+    flex-basis: 470px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid var(--primary-color);
+    border-radius: 20px;
+    padding: 20px;
+    justify-content: center;
+    /* align-items: center; */
+    box-shadow: 10px 10px 30px #0000002d;
+
+}
+.cards {
+    height: 95vh;
+    gap: 40px;
+    align-content: center;
+}
+.card img {
+    height: 90px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+.card div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: justify;
+}
+.links-card {
+    margin-top: 20px;
+}
+.fa-python{
+    margin-right: 10px;
+    color: green;
+}
+
+.card > h3{
+    text-align: center;
+    font-size: 20px;
+}
+
+.links-card a {
+    text-align: center;
+    width: 80px;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.links-card a:hover {
+    background-color: var(--primary-color);
+    color: white;
+}
+.lang {
+    margin-right: 2px;
+}
+.fb {
+    box-shadow: 10px -10px  0 #0084ffc5;
+}
+.css {
+    box-shadow: 10px -10px  0 #4d004dbd;
+}
+.abida {
+    box-shadow: 10px -10px  0 rgba(0, 0, 0, 0.582);
+}
+.fa-js-square {
+    color: rgb(192, 192, 21);
+}
+.fa-html5 {
+    color: orange;
+}
+.fa-css3-alt {
+    color: blue;
+}
+
+#contacts {
+    flex-direction: column;
+    height: 40vh;
+}
+#contacts div {
+    margin-top: 20px;
+}
+
+.links a {
+    text-decoration: none;
+    color: black;
+    margin-right: 30px;  
+    text-transform: uppercase;
+}
+
+.profiles i {
+    font-size: 30px;
+    margin-right: 20px;
+}
+.text-contact {
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 20px;
+    font-weight: 100;
+}
+.profiles a {
+    text-decoration: none;
+    color: black;
+}
+.profiles a:hover {
+    color: var(--primary-color);
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 500;
+}
+
+p, a,i {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 200;
+}
