@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.todo {
+    background-color: azure;
+    height: 80vh;
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 30px;
+}
+input {
+    width: 300px;
+    padding: 15px;
+    margin-right: 30px;
+}
+#add_todo {
+    padding: 15px;
+}
+.todo_task {
+    margin-top: 20px;
+    border: 2px solid black;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.dlt_todo {
+    background-color: red;
+    color: white;
+    padding: 5px;
+}
+.edit_todo {
+    background-color: teal;
+    padding: 5px;
+}
