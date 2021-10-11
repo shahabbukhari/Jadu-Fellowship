@@ -8,7 +8,7 @@ In This todo ap you can perform following tasks:
 - All of the tasks are stored in local storage its even on refresing the page all the task will stay in your memory.
 
 ## Live View
-You can check the live view [here](https://shahabbukhari.github.io/Jadu-Fellowship/Projects/02%20-%20Portfolio/index.html):
+You can check the live view [here](https://shahabbukhari.github.io/Jadu-Fellowship/Projects/03%20-%20TodoApp/index.html):
 
 ## Screenshots
 ![Screenshot](todo.jpeg)
