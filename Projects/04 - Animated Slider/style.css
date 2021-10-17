@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+
+    --scene-back: #17377F;
+    --sun: #f8d63d;
+    --cloud: #FCFCFC;
+    --moon: rgb(209, 215, 229);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+    background: #dde1e7;
+}
+
+.wraper {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    flex-direction: column;
+    overflow: hidden;
+    background-color: #dde1e7;
+    border-radius: 30px;
+    box-shadow: -3px -3px 5px #FFFFFF90, 3px 3px 12px #00000080;
+
+
+}
+.scene {
+    width: 100%;
+    height: 330px;
+    background-color: var(--scene-back);
+    position: relative;
+    font-size: 150px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.329);
+    transition: all 1s linear;
+}
+
+
+
+/* All the night based elements */
+.moon {
+    color: rgb(209, 215, 229);
+    position: absolute;
+    top: 90px;
+    left: 175px;
+    transition: all 1s linear;
+}
+.fa-star {
+    font-size: 20px;
+    color: var(--moon);
+    transition: all 1s linear;
+}
+.star0 {
+    position: absolute;
+    top: 50px;
+    right: 100px;
+}
+.star1 {
+    position: absolute;
+    top: 70px;
+    left: 60px;
+}
+.star2 {
+    position: absolute;
+    top: 200px;
+    left: 100px;
+}
+.star3{
+    position: absolute;
+    top: 150px;
+    /* right: 70px; */
+    right: 70px;
+}
+.star4 {
+    position: absolute;
+    top: 250px;
+    right: 110px;
+}
+
+
+/* All the Day Based Elements */
+.sun{
+    width: 150px;
+    height: 150px;
+    background-color: var(--sun);
+    border-radius: 50%;
+    border: 20px solid rgba(255, 255, 255, 0.521);
+
+
+    position: absolute;
+    top: 60px;
+    left: -500px;
+    z-index: 1 ;
+    transition: all 1s linear;
+}
+.cloud {
+    
+    font-size: 160px;
+    color: var(--cloud);
+    position: absolute;
+    top: 120px;
+    left: -1190px;
+    z-index: 5 ;
+    transition: all 1.1s linear;
+}
+.cloud-small {
+    
+    font-size: 100px;
+    color: var(--cloud);
+    position: absolute;
+    top: 20px;
+    left: -1280px;
+    transition: all 1.2s linear;
+}
+.cloud-tosmall {
+    
+    font-size: 60px;
+    color: var(--cloud);
+    position: absolute;
+    top: 60px;
+    left: -180px;
+    transition: all 1.3s linear;
+}
+
+
+
+
+
+ .footer {
+    width: 100%;
+    height: calc(500px - 330px);
+    /* padding-top: 30px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 50px;
+}
+
+.button-outer {
+    width: 200px;
+    height: 76px;
+    border-radius: 40px;
+    background-color: var(--scene-back);
+    box-sizing: border-box;
+    transition: all 1s linear;
+    box-shadow: -4px -4px 8px rgba(255, 255, 255, 0.521), 4px 4px 8px rgba(0, 0, 0, 0.486);
+  }
+  .circle{
+    background-color: var(--moon);
+    height: 76px;
+    width: 76px;
+    border-radius: 50%;
+    border-color: transparent;
+    position: relative;
+    cursor: pointer;
+    left: -62px;
+    transition: all 1s ease-in-out;    
+  }
+  h2 {
+    transition: all 0.5s linear;
+    font-family: 'Pacifico', cursive;
+    font-weight: 200;
+    font-size: 30px;
+    color: black;
+    opacity: 0.2;
+  }
+  .night-text {
+    /* color: black !important; */
+    opacity: 1;
+  }

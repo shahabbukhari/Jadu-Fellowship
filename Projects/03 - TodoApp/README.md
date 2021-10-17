@@ -1,4 +1,4 @@
-# First Portfolio 
+# Todo APP 
 This Repository contains all the source code my todo app which i have made for [Jadu Fellowship](https://github.com/Jadu-Fellowship).
 
 ## Features
